@@ -1,0 +1,1 @@
+<div class="wrap"><h2><?php print MI_PUGIN_NAME ." ". MI_CURRENT_VERSION. "<sub>(Build ".MI_CURRENT_BUILD.")</sub>"; ?></h2>more settings</div>
