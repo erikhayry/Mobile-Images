@@ -1,4 +1,4 @@
-=== EPT Empty Plugin Template ===
+=== IM MOBILE IMAGES ===
 Contributors: 1manfactory.com
 Donate link: http://1manfactory.com/donate
 Tags: wordpress plugin, plugin, development, template, emtpy plugin template, workshop, wordpress plugin workshop
@@ -6,7 +6,7 @@ Requires at least: 2.8
 Tested up to: 3.1
 Stable tag: "0.1.1.2"
 
-An empty plugin template to start with, including the most basic necessary stuff. Take this as some kind of workshop.
+An MOBILE IMAGES to start with, including the most basic necessary stuff. Take this as some kind of workshop.
 
 == Description ==
 
@@ -31,7 +31,7 @@ Every important point will have it's own page to explain.
 == Installation ==
 
 ONLY USE THIS FOR LOCAL DEVELOPMENT
-1. Upload EPT Empty Plugin Template  to the `/wp-content/plugins/` directory
+1. Upload IM MOBILE IMAGES  to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Adjust settings
 
@@ -52,11 +52,11 @@ soon
 
 = How can I support you? =
 
-Post a comment on [EPT Empty Plugin Template ](http://1manfactory.com/ept)
+Post a comment on [IM MOBILE IMAGES ](http://1manfactory.com/IM)
 
 = What is the plugin page?  =
 
-[EPT Empty Plugin Template ](http://1manfactory.com/ept)
+[IM MOBILE IMAGES ](http://1manfactory.com/IM)
 
 = Do you have other plugins?  =
 
@@ -64,7 +64,7 @@ Check out my other [Wordpress Plugins](http://wordpress.org/extend/plugins/profi
 
 = Where do I post my feedback? =
 
-Post it at the plugin page: [EPT Empty Plugin Template ](http://1manfactory.com/ept)
+Post it at the plugin page: [IM MOBILE IMAGES ](http://1manfactory.com/IM)
 
 == Upgrade Notice ==
 
