@@ -1,0 +1,4 @@
+tr.disabled th, tr.disabled td{ 
+	color: #CCC;
+}
+#content-class.active{font-weight:bold;}

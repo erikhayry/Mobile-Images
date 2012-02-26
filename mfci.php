@@ -38,6 +38,17 @@ add_action( 'admin_menu', 'MFCI_create_menu' );
 //call register settings function
 add_action( 'admin_init', 'MFCI_register_settings' );
 
+
+function mfci_enque_admin_scripts($hook) {
+    if( 'mobile-first-content-images/mfci_settings_page.php' != $hook )
+        return;
+    echo "<link type='text/css' rel='stylesheet' href='" . plugins_url('/css/admin.css', __FILE__) . "' />";    
+    wp_enqueue_script( 'mfci_admin_script_script', plugins_url('js/admin.js', __FILE__), array('jquery'));
+}
+add_action( 'admin_enqueue_scripts', 'mfci_enque_admin_scripts' );
+
+
+
 register_activation_hook(__FILE__, 'MFCI_activate');
 register_deactivation_hook(__FILE__, 'MFCI_deactivate');
 register_uninstall_hook(__FILE__, 'MFCI_uninstall');
@@ -115,11 +126,10 @@ function MFCI_create_menu() {
 	add_options_page('Mobile First Content Images', "Mobile First Content Images", 9,  MFCI_PLUGIN_DIRECTORY.'/mfci_settings_page.php');
 }
 
-
 function MFCI_register_settings() {
 	//register settings
 	register_setting( 'mfci-settings-group', 'option_image_size' );
 	register_setting( 'mfci-settings-group', 'option_add_css' );
-	register_setting( 'mi-settings-group', 'options_add_css_class');
+	register_setting( 'mfci-settings-group', 'options_add_css_class');
 }
 ?>
