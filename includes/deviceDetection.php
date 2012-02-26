@@ -34,10 +34,10 @@ if (strpos(strtolower($_SERVER['HTTP_USER_AGENT']),'windows') > 0) {
 }
  
 if ($mobile_browser > 0) {
-   $isMobile = true;
+   $ep_mfci_is_mobile = true;
 }
 else {
-   $isMobile = false;
+   $ep_mfci_is_mobile = false;
 }   
  
 ?>
