@@ -58,9 +58,7 @@ global $ep_mfci_is_mobile;
 require_once('includes/phpQuery-onefile.php');
 require_once('includes/categorizr.php');
 
-if(!tablet() && !desktop() && !tv()){
-	$ep_mfci_mobile =  true;
-}
+$ep_mfci_mobile =  mobile();
 
 if($ep_mfci_mobile){
 	add_filter('the_content', 'ep_mfci_mobile_images',2);
