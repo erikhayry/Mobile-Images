@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Mobile First Content Images
-Plugin URI: http://erikportin.com/mobile-firs-content-images
+Plugin URI: http://ww.erikportin.com/mobile-first-content-images
 Description: Swap content images with thumbnail image sizes on mobile devices
 Version: 0.1
 Author: Erik Portin, erikportin@gmail.com
-Author URI: http://erikportin.com
+Author URI: http://www.erikportin.com
 License: GPL2
 */
 
@@ -46,8 +46,6 @@ function ep_mfci_enque_admin_scripts($hook) {
     wp_enqueue_script( 'ep_mfci_admin_script_script', plugins_url('js/admin.js', __FILE__), array('jquery'));
 }
 add_action( 'admin_enqueue_scripts', 'ep_mfci_enque_admin_scripts' );
-
-
 
 register_activation_hook(__FILE__, 'EP_MFCI_activate');
 register_deactivation_hook(__FILE__, 'EP_MFCI_deactivate');
